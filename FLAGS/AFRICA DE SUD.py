@@ -1,0 +1,15 @@
+from tkinter import *
+import math as m
+window = Tk()
+panza = Canvas(window, width=400, height=400)
+panza.pack()
+panza.create_rectangle(20,20,40,380, fill='brown', outline='brown')
+panza.create_rectangle(40,20, 380,125, fill='#da0d19', outline='#da0d19')
+panza.create_rectangle(40,125, 380,230, fill='#00048d', outline='#00048d')
+panza.create_rectangle(40,90, 380,160, fill='white', outline='white')
+panza.create_polygon(40,20, 100,20, 270,125, 100,230, 40,230, fill='white', outline='white')
+panza.create_rectangle(40,100, 380,150, fill='#067944', outline='#067944')
+panza.create_polygon(40,20, 80,20, 250,125, 80,230, 40,230, fill='#067944', outline='#067944')
+panza.create_polygon(40,45, 170,125, 40,205, fill='#fbb710', outline='#fbb710')
+panza.create_polygon(40,60, 150,125, 40,190, fill='black', outline='black')
+panza.create_text(220,300,text='Flagul:Africa de Sud\nVovc Ruxanda\nTI-211', font='Helvetica 20')

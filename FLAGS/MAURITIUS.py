@@ -1,0 +1,10 @@
+from tkinter import *
+window = Tk()
+panza = Canvas(window, width=400, height=400)
+panza.pack()
+panza.create_rectangle(20,20,40,380, fill='brown', outline='brown')
+panza.create_rectangle(40,20,380,73, fill='#eb2336', outline='#eb2336')
+panza.create_rectangle(40,73,380,126, fill='#141c6c', outline='#141c6c')
+panza.create_rectangle(40,126,380,179, fill='#ffd600', outline='#ffd600')
+panza.create_rectangle(40,179,380,232, fill='#04a453', outline='#04a453')
+panza.create_text(250,300,text='Flagul:Mauritius\nVovc Ruxanda\nTI-211', font='Helvetica 20')

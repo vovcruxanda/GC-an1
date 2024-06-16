@@ -1,0 +1,133 @@
+ 
+import turtle
+from turtle import*
+ 
+screen = turtle.Screen()
+t = turtle.Turtle()
+speed(0)
+ 
+t.penup()
+t.goto(-300, 260)
+t.pendown()
+ 
+t.color('brown')
+t.begin_fill()
+t.forward(-10)
+t.right(90)
+t.forward(450)
+t.right(90)
+t.forward(-10)
+t.end_fill()
+t.right(90)
+t.forward(450)
+ 
+# Green Rectangle
+t.color('#018a2c')
+t.begin_fill()
+t.right(90)
+t.forward(400)
+t.right(90)
+t.forward(70)
+t.right(90)
+t.forward(400)
+t.end_fill()
+t.left(90)
+ 
+#Yellow Rectangle
+t.color('#fcde02')
+t.begin_fill()
+t.left(90)
+t.forward(400)
+t.right(90)
+t.forward(70)
+t.right(90)
+t.forward(400)
+t.end_fill()
+t.left(90)
+ 
+# Red Rectangle
+t.color('#db0a13')
+t.begin_fill()
+t.forward(70)
+t.left(90)
+t.forward(400)
+t.left(90)
+t.forward(70)
+t.end_fill()
+ 
+# Blue Circle
+t.penup()
+t.goto(-53, 157)
+t.pendown()
+t.color('#0645b1')
+t.begin_fill()
+t.circle(50)
+t.end_fill()
+ 
+# Star
+t.penup()
+t.goto(-65, 166)
+t.pendown()
+t.color('#fcde02')
+t.width(4)
+t.left(90)
+t.forward(75)
+t.left(144)
+t.forward(75)
+t.left(144)
+t.forward(75)
+t.left(144)
+t.forward(75)
+t.left(144)
+t.forward(75)
+t.left(144)
+ 
+# Lines
+t.penup()
+t.goto(-86, 175)
+t.pendown()
+t.color('#fcde02')
+t.width(4)
+t.right(122)
+t.forward(15)
+ 
+t.penup()
+t.goto(-117, 175)
+t.pendown()
+t.color('#fcde02')
+t.width(4)
+t.left(60)
+t.forward(15)
+ 
+t.penup()
+t.goto(-126, 145)
+t.pendown()
+t.color('#fcde02')
+t.width(4)
+t.left(85)
+t.forward(15)
+ 
+t.penup()
+t.goto(-80, 145)
+t.pendown()
+t.color('#fcde02')
+t.width(4)
+t.left(130)
+t.forward(15)
+ 
+t.penup()
+t.goto(-101, 130)
+t.pendown()
+t.color('#fcde02')
+t.width(4)
+t.right(70)
+t.forward(15)
+ 
+t.penup()
+t.goto(-300, 260)
+
+t.penup()
+t.setposition(150, -200)
+t.write('Flagul:Etiopia\nVovc Ruxanda\nTI-211', font='Helvetica 20', align="right")
+
+turtle.done()
